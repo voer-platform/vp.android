@@ -2,27 +2,39 @@ package com.voer.apps;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Display;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 public class MainActivity extends Activity {
 	SlidingMenu menu;
+	EditText searchText;
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		Display display = getWindowManager().getDefaultDisplay();
+		
 		menu = new SlidingMenu(this);
         menu.setMode(SlidingMenu.LEFT);
         menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
         menu.setShadowWidthRes(R.dimen.shadow_width);
-        menu.setShadowDrawable(R.drawable.shadow);
+        //menu.setShadowDrawable(R.drawable.shadow);
         menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
         menu.setFadeDegree(0.35f);
         menu.attachToActivity(this, SlidingMenu.SLIDING_WINDOW);
         menu.setMenu(R.layout.menu);
+        
+        searchText = (EditText) findViewById(R.id.search_box);
+        Log.e("width: ", String.valueOf(display.getWidth()*0.8));
+        searchText.setWidth((int)(display.getWidth()*0.8)); 
 	}
 	@Override
     public void onBackPressed() {
