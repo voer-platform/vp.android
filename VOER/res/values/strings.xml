@@ -4,5 +4,66 @@
     <string name="app_name">VOER</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-	<string name="search_hint_text">Type something...</string>
+    <string name="search_hint_text">Type something</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_mydocument">Tài liệu của tôi</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_browse">Duyệt online</string>
+    <string name="title_activity_my_document">MyDocument</string>
+    <string name="title_activity_browse_online">BrowseOnline</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_voer">GIỚI THIỆU CHƯƠNG TRÌNH TÀI NGUYÊN GIÁO DỤC MỞ VIỆT NAM VOER (VIETNAM OPEN EDUCATIONAL RESOURCES)
+
+1.  Học liệu Mở (OpenCourseWare - OCW)
+
+
+Thuật ngữ Học liệu mở (OpenCourseWare - OCW) được Viện Công nghệ Massachusetts - MIT (Mỹ) khai sinh vào năm 2002 khi MIT quyết định đưa toàn bộ nội dung giảng dạy của mình lên web và cho phép người dùng Internet ở mọi nơi trên thế giới truy nhập hoàn toàn miễn phí. Hiện nay trang web về học liệu mở của MIT có trên 2100 môn học (course) bao gồm bài giảng, lịch học, danh mục tài liệu tham khảo, bài tập về nhà, bài thi, bài thí nghiệm để người dùng có thể tham khảo cho việc giảng dạy, học tập và nghiên cứu của mình.
+
+
+2.  Tài nguyên giáo dục Mở (Open Educational Resources – OER)
+
+
+Thuật ngữ Tài nguyên giáo dục mở (OER) lần đầu tiên được thông qua tại diễn đàn UNESCO năm 2002  về tác động của OCW cho giáo dục đại học của các nước đang phát triển dưới sự tài trợ của Quỹ William và Flora Hewlett.Tài nguyên giáo dục mở là một khái niệm rộng hơn OCW, bao gồm:
+
+
+Nội dung học: Các khoá học đầy đủ, các tài liệu học tập, các module nội dung, các đối tượng học tập, tuyển tập, tạp chí,…
+Công cụ:  Phần mềm hỗ trợ việc tạo lập, phân phối, sử dụng và cải thiện nội dung học tập mở bao gồm cả việc tìm kiếm và tổ chức nội dung, các hệ thống quản lý nội dung và quá trình học tập (CLMS), các công cụ phát triển nội dung, và các cộng đồng học tập trực tuyến.
+Các tài nguyên bổ sung khác: Các giấy phép sở hữu trí tuệ để thúc đẩy xuất bản các tài liệu mở, các nguyên tắc thiết kế, và việc bản địa hoá nội dung.
+
+
+Với tiêu chí “Tri thức là của chung của nhân loại và tri thức cần phải được chia sẻ”, rất nhiều trường đại học và viện nghiên cứu trên thế giới đã tham gia phong trào OCW/OER để chia sẻ nội dung, công cụ cũng như phương thức triển khai học liệu mở sao cho đạt được hiệu quả cao nhất. Giảng viên, sinh viên và người tự học ở mọi nơi trên thế giới, đặc biệt là từ các nước đang phát triển như Việt Nam, đều có cơ hội như nhau trong việc tiếp cận các tri thức mới.
+
+
+3.  Chương trình  Tài nguyên giáo dục Mở Việt Nam (Vietnam Open Educational Resources – VOER)
+
+
+Chương trình  Tài nguyên giáo dục Mở Việt Nam (Vietnam Open Educational Resources – VOER), hỗ trợ bởi Quỹ Việt Nam (the Vietnam Foundation), có mục tiêu xây dựng kho Tài nguyên giáo dục Mở của người Việt và cho người Việt, có nội dung phong phú, có thể sử dụng, tái sử dụng và truy nhập miễn phí trước hết trong trong môi trường giảng dạy, học tập và nghiên cứu sau đó cho toàn xã hội.
+
+
+4.  Cách thức xây dựng nội dung của VOER
+
+
+Cách thức xây dựng nội dung của VOER là sử dụng công cụ phần mềm tích hợp Hanoi Spring trong việc đăng tải và chia sẻ nội dung lên Internet một cách dễ dàng và mềm dẻo.
+
+
+Về cơ bản nội dung trong VOER sẽ được lưu trữ dưới hai định dạng: 1) Module: là một chủ đề nhỏ hoặc một phần hoàn chỉnh của chủ đề lớn; 2) Collection: là tập hợp các module được sắp xếp theo một trình tự nhất định để tạo thành một cuốn sách/giáo trình. Cách tổ chức nội dung theo Module và Collection làm cho việc chia sẻ, sử dụng và tái sử dụng nội dung mềm dẻo và dễ dàng hơn bao giờ hết. Bất kỳ tác giả nào khi đăng ký một tài khoản trên hệ thống đều có thể đóng góp nội dung.
+
+
+Từ các ý tưởng ban đầu, công cụ soạn thảo module sẽ giúp tác giả xuất bản các module lên kho dữ liệu chung. Các giảng viên khi cần xây dựng giáo trình cho môn học của mình chỉ việc xây dựng bộ khung của giáo trình trước bằng công cụ soạn thảo collection sau đó tìm các module phù hợp đã có sẵn trong kho dữ liệu chung để đưa vào. Một module có thể được sử dụng trong nhiều Collection khác nhau, một tác giả có thể sử dụng module của tác giả khác trong Collection của mình. Thậm chí một tác giả có thể tạo một bản sao một module của tác giả khác và tiến hành sửa đổi đề phù hợp với yêu cầu của mình hơn (trong các trường hợp này hệ thống đảm bảo tác giả gốc vẫn có quyền tác giả đối với các module đã được sửa đổi). Trong trường hợp lý tưởng (các module cần thiết đã có sẵn) một tác giả chỉ cần dùng vài phút để có thể tạo ra một giáo trình/cuốn sách mới thay vì nhiều tháng để viết từ đầu như trước đây.
+
+
+Phần mềm VOER còn cho phép đưa các giáo trình ra dưới dạng sách điện tử PDF để người sử dụng có thể đọc trên máy tính không có kết nối Internet hoặc in thành sách giấy thông thường. Do không phải trả chi phí bản quyền nên sách in ra theo cách này sẽ rất rẻ, phù hợp với điều kiện kinh tế của đa số sinh viên.
+
+
+5.  VOER – sức mạnh đến từ cộng đồng
+
+
+Theo khảo sát, việc yêu cầu một giảng viên viết nội dung cho một giáo trình, thậm chí chỉ một chương của giáo trình là rất khó khăn, tuy nhiên ai cũng có thể viết rất tốt một vài trang (module) về vấn đề mình quan tâm. Nếu có thể huy động được toàn bộ giảng viên trong các trường đại học, các viện nghiên cứu đóng góp nội dung dưới dạng các module nhỏ, chúng ta sẽ có một kho tri thức đồ sộ, phủ kín các lĩnh vực và sẵn sàng cho việc tao các giáo trình phục vụ cho việc học tập, giảng dạy và nghiên cứu. Chương trình Tài Nguyên Giáo dục Mở Việt Nam chắc chắn sẽ góp phần không nhỏ vào việc cung cấp giáo trình tham khảo cho việc thực hiện đào tạo đại học theo tín chỉ của Bộ Giáo dục và Đào tạo.
+
+Mọi thắc mắc và đóng góp về chương trình xin được liên hệ với chúng tôi theo địa chỉ:
+Chương trình Học Liệu Mở Việt Nam VOER,
+Tòa nhà Newtatco, Phòng 902, tầng 9, 21 Láng Hạ, Ba Đình, Hà Nội
+Điện thoại: +84 6278 2786. Email: voer@voer.edu.vn</string>
+    <string name="title_activity_base">BaseActivity</string>
+
 </resources>
